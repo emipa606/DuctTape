@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Duct Tape! (Continued)</name>
   <packageId>Mlie.DuctTape</packageId>
@@ -8,21 +8,25 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>Update of Crustypeanuts mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Crustypeanuts mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1735825494
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Support-chat:
-https://invite.gg/mlie
-
-Non-steam version:
-https://github.com/emipa606/DuctTape
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/DuctTape][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
 RimCo proudly presents its newest product! Duct Tape!
 
 Cut your foot? Duct Tape! Lost an arm? Duct Tape! Need to remove someone's liver? Duct Tape! Need to make a bedroll? Duct Tape! What about a full set of clothing? Duct Tape!!!!!!!! Brought to you by RimCo, the leading producer of the highest quality* everything on the Rim, including Rim-Cola**!
@@ -32,9 +36,21 @@ Cut your foot? Duct Tape! Lost an arm? Duct Tape! Need to remove someone's liver
 
 ==================================================
 
-This is a joke mod. It isn't meant to be balanced, it's just a fun little mod I cooked up thanks to CryoStasis's post on the Rimworld subreddit. https://www.reddit.com/r/RimWorld/comments/bm28o3/i_probably_should_have_found_food_first_at_least/
+This is a joke mod.  It isn't meant to be balanced, it's just a fun little mod I cooked up thanks to CryoStasis's post on the Rimworld subreddit.  https://www.reddit.com/r/RimWorld/comments/bm28o3/i_probably_should_have_found_food_first_at_least/
 
-Duct Tape can be made at a tailoring bench with the Complex Clothing research using 3 cloth and a level 4 crafter. It can be used as a medicine, although its worse than herbal medicine. It counts as fabric, leather, metal, wood, and stone for all crafting and construction purposes. Yes, you can make weapons and armor out of it. Bedrolls, beds, furniture, clothes, walls, doors, if it lets you choose its material, you can make it out of duct tape.
+Duct Tape can be made at a tailoring bench with the Complex Clothing research using 3 cloth and a level 4 crafter.  It can be used as a medicine, although its worse than herbal medicine.  It counts as fabric, leather, metal, wood, and stone for all crafting and construction purposes.  Yes, you can make weapons and armor out of it.  Bedrolls, beds, furniture, clothes, walls, doors, if it lets you choose its material, you can make it out of duct tape.
 
-Enjoy!</description>
+Enjoy!
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+
