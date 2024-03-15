@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MedicineBase">
+    <defName>DT_DuctTape</defName>
+    <label>Duct Tape</label>
+    <stackLimit>75</stackLimit>
+    <description>A roll of duct tape for all of your medical needs! Or your tailoring needs! Or your furniture needs! Or your construction needs! Or Yes, even your weapon and armor needs! Brought to you by RimCo, the leading producer of literally everything on the Rim, including Rim-Cola!</description>
+    <graphicData>
+      <texPath>Things/DuctTape</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <MarketValue>3</MarketValue>
+      <Mass>0.3</Mass>
+      <Flammability>0.3</Flammability>
+      <MedicalPotency>0.30</MedicalPotency>
+      <MedicalQualityMax>0.40</MedicalQualityMax>
+      <DeteriorationRate>1</DeteriorationRate>
+      <WorkToMake>100</WorkToMake>
+      <StuffPower_Armor_Sharp>0.25</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.25</StuffPower_Armor_Blunt>
+      <StuffPower_Armor_Heat>1.0</StuffPower_Armor_Heat>
+      <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>30</StuffPower_Insulation_Heat>
+      <SharpDamageMultiplier>0.25</SharpDamageMultiplier>
+      <BluntDamageMultiplier>0.25</BluntDamageMultiplier>
+    </statBases>
+    <thingCategories>
+      <li>Textiles</li>
+    </thingCategories>
+    <stuffProps>
+      <statFactors>
+        <MaxHitPoints>0.3</MaxHitPoints>
+        <Beauty>0</Beauty>
+        <Flammability>.3</Flammability>
+        <WorkToMake>0.4</WorkToMake>
+        <WorkToBuild>0.4</WorkToBuild>
+        <DoorOpenSpeed>1.5</DoorOpenSpeed>
+      </statFactors>
+      <categories>
+        <li>Fabric</li>
+        <li>Leathery</li>
+        <li>Woody</li>
+        <li>Metallic</li>
+        <li>Stony</li>
+      </categories>
+      <color>(144,144,144)</color>
+      <commonality>0.5</commonality>
+      <allowColorGenerators>false</allowColorGenerators>
+      <constructEffect>ConstructMetal</constructEffect>
+      <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+    </stuffProps>
+    <costList>
+      <Cloth>3</Cloth>
+    </costList>
+    <recipeMaker>
+      <researchPrerequisite>ComplexClothing</researchPrerequisite>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Tailor</effectWorking>
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>ElectricTailoringBench</li>
+        <li>HandTailoringBench</li>
+      </recipeUsers>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+</Defs>
